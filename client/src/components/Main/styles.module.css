@@ -1,0 +1,80 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #3bb19b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.home{
+    background: url("../../images/imgback1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+home .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+
+}
+
+.home .row .content{
+    flex: 1 1 42rem;
+}
+
+.home .row .books-slider{
+    flex: 1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.home .row .books-slider Link img{
+    height: 25rem;
+}
+
+.home .row .books-slider Link:hover img{
+    transform: scale(.9);
+}
+.home .row .books-slider .stand{
+    width: 100%;
+    margin-top: -2rem;
+    height: 100px;   
+}
+.home .row .content h3{
+    color: red;
+    font-size: 6.5rem;
+}
+.home .row .content p{
+    color: var(--black);
+    font-size: 1.5rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+
+
+
+
