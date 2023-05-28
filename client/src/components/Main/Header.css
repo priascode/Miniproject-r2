@@ -119,8 +119,12 @@
 .header .header-2 .navbar li{
     color: #fff;
     display: inline-block;
-    padding: 1.2rem;
+    padding: 1.2rem 1rem;
+    margin:0px;
     font-size: 1.7rem;
+}
+.header .header-2 .navbar li Link:visited{
+    color: #fff;
 }
 .header .header-2 .navbar button{
     float: right;
@@ -128,6 +132,7 @@
 
 .header .header-2 .navbar li:hover{
     background: var(--dark-color);
+    
 }
 
 .header .header-2 .active{
@@ -257,7 +262,11 @@
     color: var(--light-color);
 }
 
+/*arrival*/
+FormLabel{
+    font-size: 30px;
 
+}
 
 
 

@@ -5,6 +5,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import {useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import './Main/Header.css'
 
 const Addbook = () => {
 const [inputs, setInputs] = useState({
@@ -52,7 +53,7 @@ sendRequest().then(()=>history('/books'))
     <TextField  value={inputs.author} onChange={handleChange} margin='normal' fullWidth="outlined" name='author' />
     <FormLabel>description</FormLabel>
     <TextField   value={inputs.description} onChange={handleChange}  margin='normal' fullWidth="outlined" name='description' />
-    <FormLabel>Price</FormLabel>
+    <FormLabel>Year of Publication</FormLabel>
     <TextField  value={inputs.price} onChange={handleChange} type="number"  margin='normal' fullWidth="outlined" name='price' />
     <FormLabel>ImageURL</FormLabel>
     <TextField   value={inputs.image} onChange={handleChange} margin='normal' fullWidth="outlined" name='image' />

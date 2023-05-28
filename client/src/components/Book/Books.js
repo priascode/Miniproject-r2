@@ -16,7 +16,6 @@ const Books = () => {
     console.log(books);
   return (
     <div>
-      All books are here
       <ul>
         {books &&  books.map((book, i)=>(
             <li key={i} >
