@@ -19,7 +19,7 @@ function Reviews() {
   };
 
   return (
-    <div className="App">
+    <div className="">
         <Main/>
       {!showChat ? (
         <div className="joinChatContainer">

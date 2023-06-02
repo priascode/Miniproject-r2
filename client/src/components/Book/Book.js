@@ -15,6 +15,9 @@ const Book = (props) => {
     }
 
   return (
+
+    <div>
+   
     <div className='card' >
       <div className='options'>
         <Button ><i className='fa fa-heart'></i></Button>
@@ -30,6 +33,7 @@ const Book = (props) => {
    
       <Button className='acart' >Add To Cart</Button>
       
+    </div>
     </div>
   )
 }
